@@ -1,0 +1,12 @@
+const os=require('os');
+console.log("OS platform:",os.platform());
+console.log("OS architecture:",os.arch());
+console.log("OS version:",os.version());
+console.log("OS release:",os.release());
+console.log("OS hostname:",os.hostname());
+console.log("OS uptime:",os.uptime());
+console.log("OS total memory:",os.totalmem());
+console.log("OS free memory:",os.freemem());
+console.log("OS CPU info:",os.cpus());
+console.log("OS network interfaces:",os.networkInterfaces());
+console.log("OS endianness:",os.endianness());
